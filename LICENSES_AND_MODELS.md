@@ -1,5 +1,7 @@
 # 依存関係・フォント・モデルの確認事項
 
+インストール不要版はPyInstaller 6.16.0（GPL-2.0-or-later＋Bootloader exception）で作成します。例外により生成アプリ自身へGPLを適用する義務はありません。Python/PSF・Tcl/Tk・Windows wheel等の実際の同梱物のライセンス・NOTICEを third_party/windows-distribution に集めます。ReportLabの同梱フォント通知も含めます。
+
 フェーズAではAIモデルを利用・配布しません。外部APIの追加課金もありません。以下は採用版の配布物メタデータと同梱許諾文の確認結果で、商用製品としての最終的な法務審査ではありません。
 
 | 採用物 | 版 | 確認した許諾 | 対応・確認事項 |

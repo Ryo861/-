@@ -13,3 +13,8 @@ models/
 # Only generated synthetic practice PDFs may be published.
 !sample_data/*.pdf
 !sample_data/添削済み見本/*.pdf
+
+# Packaging outputs
+build/
+dist/
+*.spec

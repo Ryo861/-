@@ -1,6 +1,14 @@
 # 介護実習記録チェッカー（フェーズA）
 
-Windows 11向けの開発版です。PDFを表示し、教員が手動で付けた赤い番号とコメント、実習時間の計算結果を別PDFに保存します。AI・OCR・外部APIは使いません。初回の依存ライブラリ取得後はオフラインで使えます。
+Windows 11向けのフェーズAです。インストール不要のWindows版も用意します。PDFを表示し、教員が手動で付けた赤い番号とコメント、実習時間の計算結果を別PDFに保存します。AI・OCR・外部APIは使いません。初回の依存ライブラリ取得後はオフラインで使えます。
+
+## Pythonインストール不要版
+
+[Releases](https://github.com/Ryo861/-/releases) にある **practice-record-checker-windows-portable.zip** を使います。ソースコード用の「Code → Download ZIP」とは別です。ZIPをすべて展開し、`PracticeRecordChecker/PracticeRecordChecker.exe` をダブルクリックします。Pythonの導入や管理者としての実行は不要な設計です。`_internal` も必要なのでEXEだけを移動しないでください。学校のアプリ実行制限がある場合は管理者の許可が必要です。
+
+[インストール不要版の使い方](docs/インストール不要版の使い方.txt) に手順とPCへの影響を記載しています。Windows CIの全テストと、作成したEXEによるGUI・PDF保存チェックが通ったものだけをReleaseにアップロードします。作成中はReleaseにZIPはありません。
+
+以下はソースコードから起動する場合の手順です。
 
 **まず [日本語の操作手順](docs/操作方法.md) を読んでください。** Pythonをまだ入れていない場合の手順もあります。
 
@@ -27,7 +35,7 @@ Windows 11向けの開発版です。PDFを表示し、教員が手動で付け�
 4. 「準備完了」と出たら `start_windows.bat` をダブルクリックします。
 5. 「練習用PDFを作成」から空の練習フォルダーを選び、合成データで試してください。
 
-GPUやモデルのダウンロードは不要です。Python 3.11系64bitをWindowsの想定環境とし、このクラウドではPython 3.13.5・Tk 8.6で画面を含めて検証しました。Windows用EXEではありません。
+GPUやモデルのダウンロードは不要です。Python 3.11系64bitをWindowsの想定環境とし、このクラウドではPython 3.13.5・Tk 8.6で画面を含めて検証しました。ソースコードからの起動はPythonが必要です。ReleaseのEXE版にはPythonが同梱されます。
 
 ## 開発者向け
 
