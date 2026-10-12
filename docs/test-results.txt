@@ -1,0 +1,24 @@
+test_batch_gui (test_gui.GuiTests.test_batch_gui) ... ok
+test_gui_load_edit_time_save_and_preview (test_gui.GuiTests.test_gui_load_edit_time_save_and_preview) ... ok
+test_batch_isolates_failures_and_does_not_overwrite (test_pdf_roundtrip.PdfTests.test_batch_isolates_failures_and_does_not_overwrite) ... ok
+test_coordinates_and_rotated_crop_preserve_original (test_pdf_roundtrip.PdfTests.test_coordinates_and_rotated_crop_preserve_original) ... ok
+test_embedded_image_preserved (test_pdf_roundtrip.PdfTests.test_embedded_image_preserved) ... ok
+test_encrypted_broken_and_zero_pages_rejected (test_pdf_roundtrip.PdfTests.test_encrypted_broken_and_zero_pages_rejected) ... ok
+test_invalid_position_and_page (test_pdf_roundtrip.PdfTests.test_invalid_position_and_page) ... ok
+test_long_comments_not_lost (test_pdf_roundtrip.PdfTests.test_long_comments_not_lost) ... ok
+test_missing_font_glyph_rejects_without_output (test_pdf_roundtrip.PdfTests.test_missing_font_glyph_rejects_without_output) ... ok
+test_multipage_confirmation_and_page_count (test_pdf_roundtrip.PdfTests.test_multipage_confirmation_and_page_count) ... ok
+test_no_original_overwrite_existing_and_changed_source (test_pdf_roundtrip.PdfTests.test_no_original_overwrite_existing_and_changed_source) ... ok
+test_offline_processing (test_pdf_roundtrip.PdfTests.test_offline_processing) ... ok
+test_original_content_and_japanese_output (test_pdf_roundtrip.PdfTests.test_original_content_and_japanese_output) ... ok
+test_windows_filenames (test_pdf_roundtrip.PdfTests.test_windows_filenames) ... ok
+test_invalid_and_overnight (test_time_checker.TimeTests.test_invalid_and_overnight) ... ok
+test_missing_never_defaults (test_time_checker.TimeTests.test_missing_never_defaults) ... ok
+test_multiple_breaks_and_confirmed_none (test_time_checker.TimeTests.test_multiple_breaks_and_confirmed_none) ... ok
+test_sample (test_time_checker.TimeTests.test_sample) ... ok
+test_threshold (test_time_checker.TimeTests.test_threshold) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.789s
+
+OK
