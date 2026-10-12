@@ -4,7 +4,17 @@
 
 ## 環境を記録
 
-`setup_windows.bat` の最後にOS、Python、CPUコア数、空き容量、RAMが表示されます。GPUは使いません。Windows 11・64bit・RAM16GBの実機を優先し、Windows 10は別の互換性試験として扱います。
+ソースコード版では `setup_windows.bat` の最後にOS、Python、CPUコア数、空き容量、RAMが表示されます。GPUは使いません。Windows 11・64bit・RAM16GBの実機を優先し、Windows 10は別の互換性試験として扱います。
+
+## インストール不要版での確認
+
+- [ ] ReleaseのWindows portable ZIPを取得する（Code → Download ZIPではない）。
+- [ ] すべて展開し、Python未導入のPCでPracticeRecordChecker.exeが開く。
+- [ ] 管理者として実行せず、画面とPDF表示・保存ができる。
+- [ ] `_internal` を含めフォルダー一式を保持する。
+- [ ] Windows動作確認結果.jsonで自動チェックの結果を確認する。
+- [ ] インターネットを切り、練習用PDFで下の機能確認表を試す。
+- [ ] 学校端末のアプリ実行ポリシーで禁止されていないことを確認する。
 
 ## 確認表
 
